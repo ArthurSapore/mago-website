@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         'primary': '#00FFFF',
         'second': '#E0A420'
+      },
+      backgroundImage:{
+        'mago':"url('/src/assets/images/mago.png')"
       }
     },
   },
