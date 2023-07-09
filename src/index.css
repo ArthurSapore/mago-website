@@ -6,3 +6,11 @@
     font-family: 'digital';
     src: url(Digital-Desolation-Plus.otf)format('opentype');
 }
+
+body{
+    background-color: #171717;
+    margin: 0 auto;
+    max-width: 1440px;
+    box-sizing: border-box;
+}
+  
