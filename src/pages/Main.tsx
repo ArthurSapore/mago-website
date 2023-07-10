@@ -16,7 +16,10 @@ import Nav from '../components/Nav'
 import '../styles/main.css'
 import Footer from '../components/Footer'
 
+
 export default function Main(){
+
+
 
     return(
         <div>
@@ -36,17 +39,20 @@ export default function Main(){
                     </section>
                     <section id="services" className='flex flex-col items-center my-5'>
                         <h1 className='text-primary text-3xl font-normal my-5 font-[digital]'>SERVIÇOS</h1>
-                        <div className='px-8 md:flex  '>
-                            <article className='p-5'>
-                                <h1>Artes</h1>
+                        <div className='px-8 md:flex hover:cursor-pointer '>
+                            <article className='p-5 relative'>
+                                <h1 className='absolute top-36 left-20 font-medium text-4xl text-white'>Artes</h1>
                                 <figure><img className='object-none' src={arts} alt="" /></figure>
                             </article>
-
+                            <article className='p-5 relative hover:animate-ping'>
+                                <h1 className='absolute top-36 left-20 font-medium text-4xl text-white'>Artes</h1>
+                                <figure><img className='object-none' src={arts} alt="" /></figure>
+                            </article>
                         </div>
                     </section>
-                    
+
                     <section id="portfolio" className='flex flex-col items-center my-5 w-full'>
-                        <h1 className='text-primary text-3xl font-normal my-5 font-[digital]'>PORTFÓLIO</h1>
+                        <h1 className='text-primary text-3xl max-w-full text-center break-words font-normal my-5 font-[digital]'>PORTFÓLIO</h1>
                         <div className="flex flex-wrap md:-m-2 -m-1">
                             <div className="flex flex-wrap w-1/2">
                                 <div className="md:p-2 p-1 w-1/2">

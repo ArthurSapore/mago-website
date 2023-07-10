@@ -10,7 +10,7 @@ module.exports = {
       backgroundImage:{
         'mago':"url('/src/assets/images/mago.png')"
       }
-    },
+    }
   },
   plugins: [],
 }
